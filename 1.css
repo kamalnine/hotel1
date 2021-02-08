@@ -1,0 +1,90 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("home.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    
+}
+ul{
+    float: right;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+ul li{
+    display: inline-block;
+    margin-top: 40px;
+}
+ul li a{
+    color: aliceblue;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 120%
+}
+ul li a:hover{
+    
+    color: black;
+    background-color: white;
+    transition: 0.6s ease;
+}
+.main{
+    max-width: 16000px;
+    margin: auto;
+}
+.title{
+    top: 46%;
+    left: 35%;
+    position: absolute;
+    
+    
+}
+.title h1{
+    color: aliceblue;
+    font-size: 300%;
+    text-align: center;
+    word-spacing: normal;
+}
+.title1{
+     top: 54%;
+    left: 37%;
+    position: absolute;
+    text-align: center;
+    
+    
+    
+}
+.title1 h3{
+    color: aliceblue;
+    
+}
+.title2{
+    top: 5%;
+    left: 4%;
+    position: absolute;
+    
+}
+.title2 h2{
+    color: aliceblue;
+    font-size: 200%;
+}
+.button{
+        top: 64%;
+    left: 40%;
+    position: absolute;
+    
+    
+}
+.btn{
+    color: white;
+    
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
